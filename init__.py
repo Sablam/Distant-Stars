@@ -6,6 +6,8 @@ from entities import Starmap
 from pygame.locals import *
 
 
+#test
+
 def main():
     pygame.init()
     pygame.display.set_caption("Distant Stars")
