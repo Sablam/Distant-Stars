@@ -1,6 +1,7 @@
 import pygame
+import graphic.window
 
-import Starmap
+from entities import Starmap
 
 from pygame.locals import *
 
@@ -8,12 +9,12 @@ from pygame.locals import *
 def main():
     pygame.init()
     pygame.display.set_caption("Distant Stars")
-    fenetre = pygame.display.set_mode((1450, 950), RESIZABLE)
+    fenetre = pygame.display.set_mode((1450, 950))
     info = pygame.display.Info()
     print(info)
 
-    game_starmap=Starmap.Starmap_obj(20,20)
-    game_starmap.affichage_starmap(fenetre)
+    game_starmap = Starmap.Starmap_obj(20, 20)
+    graphic.window.affichage_starmap(game_starmap, fenetre)
 
 
     running = 1

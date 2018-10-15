@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="colony-db32-other-ready" tilewidth="16" tileheight="16">
+  <image source="Desktop/colony-db32/colony-db32-other-ready.png" width="272" height="1040"/>
+ </tileset>
+ <tileset firstgid="1106" name="colony-db32-grounds-ready" tilewidth="16" tileheight="16">
+  <image source="Desktop/colony-db32/colony-db32-grounds-ready.png" width="320" height="816"/>
+ </tileset>
+ <tileset firstgid="2126" name="colony-db32-buildings-ready" tilewidth="16" tileheight="16">
+  <image source="Desktop/colony-db32/colony-db32-buildings-ready.png" width="320" height="1840"/>
+ </tileset>
+ <layer name="darkness" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0aENACAQwMA37L8tGsUACJKKu6QTdAYAAAAAAAAAgGuvv/HGjxY/Wvxo8aPFjxY/Wvxo8aPFjxY/Wvxo8aPFjxY/Wvxo8aPFjxY/Wvxo8aPFjxY/WvwAAAAAAAAAAAAAAAAAAAAAAAAAAADglwOQXjTf
+  </data>
+ </layer>
+ <layer name="Basic Tile Layer" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt17FtAjEUgOFDOoWSNExAdiBzkC4DQMcAZIdk4RSxpVAkuuP8HBy5+D7pddD4l/10wwAAAAAAAAAAwNVmfXse1/P/PY7DcFoYYvToix590aMvtT0O6azPetzdrRarNE8zPUruhh5xS3fjWY9/1XJ36BGnR19qdkemRxs1uyPTo42atyrTow09+jK1N3YLuyPTo42pe7Ff2B2l3+Z6xEXfqaz0bugRp0dfoj0ib5UecSU9coOX74m00COupEfkfdLjb3732Kb5fPj5m0s617c0r3o0V/It+J7O9WOsuyfERL7N9WhPDwAAAAAAAAAAAAAAAAAAAAAAAAAAAFr5Am0cgCo=
+  </data>
+ </layer>
+ <layer name="Upper Tile Layer" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt17ENgkAUBmAKoXYIp3IA3UEH0RFsnEAbJ8AtbHAHLxESomdxBHNEvy/5Q/tyfw4eRQEAAAAAAAAAQOdUvudc5p7qf43Vx2o2/mz/aMw+1r0wTKyPS8gtsZNN6GDby1Ivg7x2cQy5htwT+9iFs9/30vVDmti7KrWLmK4f0titpkUf0xL7lh90ko3/wWn5tF+Rx7f2K4ap2x7qNu5GXk04/3n1fDbuxiQsqtwTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL/iAQ5uSGQ=
+  </data>
+ </layer>
+ <layer name="On-Ground-1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2TFqAlEUBdBXmBm3FbOG6I5UsgQ1awhp4gLENYiNuoYkpUXewNhIIBiFGfUcuOXA41+meP9HAAAAAAAAAABwMC0iZpnXoulJqLxlD+vMuz5aoepjlVnqoxUWugAAaI1hGTE6yrhseqr7Ncmznx5lpo/GfOTZv2QW+rio/cN530/00SqH/6TKXB8AANyoTSdiW2fXaXqa6zW80P3TZ3bwVedbH/92yn79WET0Mk+/vPEWueeXdbpn7vz37JQ+nrOHfmbgzR0AAAAAAAAAAAAAAAAAAAAAAAAAAIA//ABbECo0
+  </data>
+ </layer>
+ <layer name="Walls" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt07ENhDAMQNEo+y/AFSxAwQA0UENz1FCxCD5BwQaJjvck95a/nBIAAAAAAAAAAAAAAADwVk1OaYxpc+lN+Dmiwzem16OIKe4+3D/xyVcPylnj/sv9E50eVdgfDfSoy6xHVTY9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+wgkBJA+g
+  </data>
+ </layer>
+ <layer name="Path_deco_overlays_1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2btqFGEYBuDZTbJpvAT1Aqy08BZsPZRaqI2NNhqsbAUNCGKhhegSQQUFDRsPC7kB8XAJCaillZ3GQvyGmeC67Ewyw0yE3eeBl38Wdoef/9057GySAAAAAAAAAAAwyb7e3+3jc0lyYm7nzyzNZ+PafDtzmnXXO9l4Lro4X9LH1kI23sh7WNJHqy5HF1fyPn4tFL9vmPdwVR+N+h1r/iqyEXkd+V7SwSSD6OPmhFDf+7EOzi5W38cdHTRmvI+dPI48iTxtYzJU7uNN5G1kmL8eOjYaNdrHoYJz1VbFzqjmWSe7jqfX8M2Ctf5Ro4P1yF3HS2VpD72R34HfGvr+f2xmNzPpXQvnoI3mdzkzyvooO1cN4hrTr3FPTLk2jg/a97Ogt8Hiv9uDbpJ8jXzp7s28ps3BBs85K9HBIz3Utj+6OFCjj3tj97Lp8fC5mx0ba/qo7XB0ccQ1eeo8n/Db73Zn7+cxDU7t4n/AcemzqqOx3g8jpyNnIv3Igzzp9oo+GjP+H9SHkfXv5+O1yMvIxcilyGrkRZ50e6CPVh3L1381H29Z7/9queL6f/I8sbKTFe6t7k/oY7O5qbBL28+wLuR9LPeK3wsAAAAAAAAAAAAAAAAAAAAAAAAAAADb/gD2uUqo
+  </data>
+ </layer>
+ <layer name="Others-Buildings" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt100uA2EAxvFX0k0/VixwBpxB3YgzaPd22hMgOIHWxwmoBXfgDngktbGhMTITfr/kyWxmkjfzX72lAAAAAAAAAABQpWmrlMtW3afgwywt7vUAAAB+0VG7lOPspF33Sf6e1W4pa9l69/vfXKTDJJvOezzk+ahNJTbSYTPbWqDHbf79XTabN3jK81mPSmynQz/bWaDHZy9p8apHYyx3Slnp1H2K/2m/V8ogG/bqPgnvDtNhlI31aITTdDjLzvVohKt0uM5u9AAa6GDp63d2c3/Z+8EdhmoN0mKoR2OM0mKsBwAAAAAAAAAAAAAAAAAAAAAAAAAAADTOG4PbHg8=
+  </data>
+ </layer>
+ <layer name="corrections-1-buildings-2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1b8uBFEYh+ETCYll1m4j4eK20ggaBTq0lGhXiWvANdh1ARrcgMKfzjfJbqK2I+fEPE/yaycn887JpAQAAAAAAAAAwF8YVSmNY4+xzW5Kb1XuE7XbtMd0C93cJ2q3uXj/85PVLZ7cj6xWo8HaZOvuxq/sxTe87zsuxkm0ONWjGMNocakHABkMVnKfgJ929SjWhjZFOdCDf+iql9J17KaX+yTUbqPDXexejyI8RIdRbKxHEZ6jw0vsVY8ifESHz9iXHkVY6qe0HKv6uU9CbSvuxXZsp4H78b44+zPa7jA6HMWOG+jR6cz+jLY7iw7nsQv/DwAAAAAAAAAAAAAAAAAAAAAAAAAAABryDTT8Ino=
+  </data>
+ </layer>
+ <layer name="corrections-2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0cENgCAQAMFrAGgIe5D+OzE88OPHvzkSZyrYZCMAAAAAAAAAAPjSLNkFvF2ebKXW7AIAAAD4p94ijpZdweO8Xww/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALaxALK+A4M=
+  </data>
+ </layer>
+ <layer name="corrections-3" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0bENgCAARcFfWhBHZBTHpHAEC2fAxoIBCBR3E7zkJQAAAAAAAAAAzFCPpJXkLqtL+D3fi9eP7Vzn6gIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABh191MEqw==
+  </data>
+ </layer>
+ <layer name="bridge_support" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEKgDAMBdAe0gOo9Qi9P3WI0EXcGsX3IPxAMmRJKQAAAAAAAAAA8G01ckm9gkvLPgBe6Dhri36N3IfZmMzRbpI89XmFifwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf9cBdMMFrg==
+  </data>
+ </layer>
+ <layer name="bridge" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEJg0AURdGpQEswDQhWEIIpQCTFJeXmiwqOO1d/4TlwGZjVg4EpBQAAAAAAAACAq15REw3JO1jNURf12UOoeI8c37L+T3vv7RxP90tt9MuZeSvdoX47P6f7pUfSvjt7Zg+gMmUPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADj4A80kBaE=
+  </data>
+ </layer>
+</map>
