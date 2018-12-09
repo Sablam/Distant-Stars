@@ -1,5 +1,5 @@
 import pygame
-import graphic.window
+import graphic.Window
 
 from entities import Starmap
 
@@ -16,7 +16,7 @@ def main():
     print(info)
 
     game_starmap = Starmap.Starmap_obj(20, 20)
-    graphic.window.affichage_starmap(game_starmap, fenetre)
+    graphic.Window.affichage(game_starmap, fenetre, 20, [0, 0])
 
 
     running = 1

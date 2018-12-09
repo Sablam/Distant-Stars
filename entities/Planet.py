@@ -7,4 +7,4 @@ class Planet_obj():
         self.entitie_type="planet"
         self.size = (width, heigh)
         self.type="Classe M"
-        self.hexaGrid = [[Case_Terrain.Case_Terrain_obj()] * heigh for _ in range(width)]
+        self.hexaGrid = [[Case_Terrain.Case_Terrain_obj()] * width for _ in range(heigh)]
