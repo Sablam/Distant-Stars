@@ -22,7 +22,7 @@ def main():
     pygame.display.flip()
 
     pygame.mixer.music.load("Musics/271866__mrpork__era-of-space.ogg")
-    pygame.mixer.music.set_volume(0.2)
+    pygame.mixer.music.set_volume(0.1)
     pygame.mixer.music.play()
 
 
@@ -45,7 +45,7 @@ def main():
 
             if event.type == MOUSEBUTTONDOWN:
                 if flag_game_started == 0:
-                    if (0.45*scrrec.bottom < pygame.mouse.get_pos()[1] < 0.55*scrrec.bottom) and (0.40*scrrec.right < pygame.mouse.get_pos()[0] < 0.60*scrrec.right):
+                    if (0.40*scrrec.bottom < pygame.mouse.get_pos()[1] < 0.50*scrrec.bottom) and (0.40*scrrec.right < pygame.mouse.get_pos()[0] < 0.60*scrrec.right):
                         flag_game_started = 1
                         gamesession = GameSession.GameSession(fenetre)
 

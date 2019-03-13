@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planets>
+	<planet data-id="1">
+		<type>tellurique</type>
+		<classe>continentale</classe>
+		<temperature>temperee<temperature>
+		<size_min>5</size_min>
+		<size_max>10</size_max>
+	</planet>
+	
+	<planet data-id="2">
+		<type>tellurique</type>
+		<classe>océanique</classe>
+		<temperature>temperee<temperature>
+		<size_min>5</size_min>
+		<size_max>10</size_max>
+	</planet>
+
+
+</planets>

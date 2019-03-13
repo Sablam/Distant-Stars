@@ -14,6 +14,9 @@ class Starmap_obj():
         self.hexaGrid = [[Case_Espace.Case_Espace_obj() for i in range(0,heigh-1)] for j in range(0,width-1)] #hexaGrid est un tableau d'objet Case_Espace
         #print(self.hexaGrid)
 
+
+
+        #Création des planètes
         #print(self.hexaGrid[0][1].entities[0])
         for i in range(0,random.randint(4, width*heigh/50)):
             iteration=0 #mécanisme pour éviter d'écraser une entité pré-existante et réessayer de créer cette entities autre part
