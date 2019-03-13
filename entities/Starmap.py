@@ -8,8 +8,6 @@ import random
 class Starmap_obj():
 
 
-
-
     def __init__(self,width,heigh):
 
         self.size=(width,heigh)

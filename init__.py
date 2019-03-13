@@ -1,7 +1,8 @@
 import pygame
 import graphic.Window
+from Core import GameSession
 
-from entities import Starmap
+
 
 from pygame.locals import *
 
@@ -15,8 +16,20 @@ def main():
     info = pygame.display.Info()
     print(info)
 
-    game_starmap = Starmap.Starmap_obj(20, 20)
-    graphic.Window.affichage(game_starmap, fenetre, 20, [0, 0])
+    scrrec = fenetre.get_rect()
+    img_menu=pygame.transform.scale(pygame.image.load("Ressources Graphiques/menu.png"),(scrrec.right, scrrec.bottom))
+    fenetre.blit(img_menu,(0,0))
+    pygame.display.flip()
+
+    pygame.mixer.music.load("Musics/271866__mrpork__era-of-space.ogg")
+    pygame.mixer.music.set_volume(0.2)
+    pygame.mixer.music.play()
+
+
+
+    flag_game_started = 0
+
+
 
 
     running = 1
@@ -29,6 +42,13 @@ def main():
             if event.type == KEYDOWN:
                 if event.key == K_ESCAPE:
                     running = 0
+
+            if event.type == MOUSEBUTTONDOWN:
+                if flag_game_started == 0:
+                    if (0.45*scrrec.bottom < pygame.mouse.get_pos()[1] < 0.55*scrrec.bottom) and (0.40*scrrec.right < pygame.mouse.get_pos()[0] < 0.60*scrrec.right):
+                        flag_game_started = 1
+                        gamesession = GameSession.GameSession(fenetre)
+
 
             #if event.type == VIDEORESIZE:
 

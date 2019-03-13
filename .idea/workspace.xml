@@ -8215,8 +8215,82 @@
       <change afterPath="$PROJECT_DIR$/../../Java/Multiplayer Paper Soccer Game/src/server/ServerThread.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaScript/intro-javascript/chapitre_1/html/cours.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaScript/intro-javascript/chapitre_1/js/cours.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphic/Gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphic/VisibleStarmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/GameSession.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/absorption/00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/absorption/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/absorption/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/absorption/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/absorption/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/absorption/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/absorption/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/absorption/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/absorption/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/elements/radar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/elements/ray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/elements/rotating_star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/elements/tractor_beam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/elements/tractor_beam2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion/0000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion/0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion/0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion/0003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion/0004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion/0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion/0006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion/0007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion/0008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion2/e_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion2/e_0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion2/e_0003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion2/e_0004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion2/e_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion2/e_0006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion2/e_0007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion2/e_0008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion2/e_0010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion2/e_0012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion2/e_0013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/explosion2/e_0014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/lightning/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/rotator3/00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/rotator3/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/rotator3/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/rotator3/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/rotator3/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/rotator3/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/rotators/radar2C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/rotators/rotator1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/rotators/rotator1B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/rotators/rotator2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/rotators/rotator4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/rotators/rotator5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/shield4/00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/shield4/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/shield4/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/shield4/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/shield4/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/shield4/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/shield4/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/shield4/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/shield4/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/ship.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Signal_Analyser/Projet Filtrage/Coefs.mat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Signal_Analyser/Projet Filtrage/data.mat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Signal_Analyser/Projet Filtrage/main.py" afterDir="false" />
@@ -14470,13 +14544,9 @@
       <change afterPath="$PROJECT_DIR$/../../../SimCity 4/Regions/London/City - New City (21).sc4" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../SimCity 4/Regions/London/City - New City (22).sc4" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../SimCity 4/Regions/London/City - New City (25).sc4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources Graphiques/FX/background_Jerom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Planet.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Planet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entities/Starmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Starmap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Void.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Void.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphic/window.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphic/window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphic/Gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphic/Gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14487,7 +14557,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Distant_Stars$Starmap.coverage" NAME="Starmap Coverage Results" MODIFIED="1543949674239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entities" />
-    <SUITE FILE_PATH="coverage/Distant_Stars$init__.coverage" NAME="init__ Coverage Results" MODIFIED="1543953807725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Distant_Stars$init__.coverage" NAME="init__ Coverage Results" MODIFIED="1552505698221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1849550812">
@@ -14533,48 +14603,48 @@
     <session id="-606152222">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="py" value="1482" />
+          <entry key="py" value="2003" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="1482" />
+          <entry key="Python" value="2003" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="1" />
-          <entry key="py" value="4" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+            <state relative-caret-position="408">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -14583,10 +14653,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/GameSession.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphic/Window.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="44" />
+            <state relative-caret-position="153">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -14597,33 +14679,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphic/VisibleStarmap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="40" column="71" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="71" />
-              <folding>
-                <marker date="1543949272887" expanded="true" signature="78:2095" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/graphic/Gui.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
-              <folding>
-                <marker date="1543953807685" expanded="true" signature="49:54" ph="..." />
-                <marker date="1543953807685" expanded="true" signature="49:700" ph="..." />
-              </folding>
+            <state relative-caret-position="680">
+              <caret line="40" column="72" lean-forward="true" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+        <entry file="file://$PROJECT_DIR$/graphic/Gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+            <state relative-caret-position="187">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+              <folding>
+                <marker date="1552263637439" expanded="true" signature="49:54" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -14631,8 +14700,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entities/Starmap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#1#28#0" expanded="true" />
               </folding>
@@ -14643,8 +14712,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entities/Case_Espace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="85">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="16" />
               <folding>
                 <marker date="1539533398868" expanded="true" signature="50:51" ph="..." />
                 <marker date="1539533398868" expanded="true" signature="50:56" ph="..." />
@@ -14654,10 +14723,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entities/Void.py">
+        <entry file="file://$PROJECT_DIR$/entities/ship.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <marker date="1552264076371" expanded="true" signature="17:19" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -14665,8 +14737,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entities/Planet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="102">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entities/Case_Terrain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -14699,13 +14780,15 @@
         <option value="$PROJECT_DIR$/Void.py" />
         <option value="$PROJECT_DIR$/Case_Espace.py" />
         <option value="$PROJECT_DIR$/Starmap.py" />
-        <option value="$PROJECT_DIR$/init__.py" />
         <option value="$PROJECT_DIR$/entities/Planet.py" />
         <option value="$PROJECT_DIR$/graphic/window.py" />
         <option value="$PROJECT_DIR$/graphic/VisibleStarmap.py" />
-        <option value="$PROJECT_DIR$/graphic/Window.py" />
-        <option value="$PROJECT_DIR$/entities/Starmap.py" />
         <option value="$PROJECT_DIR$/graphic/Gui.py" />
+        <option value="$PROJECT_DIR$/entities/ship.py" />
+        <option value="$PROJECT_DIR$/Core/GameSession.py" />
+        <option value="$PROJECT_DIR$/entities/Starmap.py" />
+        <option value="$PROJECT_DIR$/graphic/Window.py" />
+        <option value="$PROJECT_DIR$/init__.py" />
       </list>
     </option>
   </component>
@@ -14715,9 +14798,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="198" />
-    <option name="y" value="335" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="167" />
+    <option name="y" value="71" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -14755,17 +14838,12 @@
             <path>
               <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="entities" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="graphic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Ressources Graphiques" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -14782,6 +14860,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alban\Documents\Programmation\Python\Distant Stars" />
       <recent name="D:\Users\alban\Dropbox\Programmation\Python\Distant Stars" />
       <recent name="D:\Users\alban\Dropbox\Programmation\Python\Distant Stars\graphic\entities" />
     </key>
@@ -14883,16 +14962,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48218828" visible="true" weight="0.19296375" />
-      <window_info id="Structure" order="1" sideWeight="0.5178117" side_tool="true" visible="true" weight="0.19296375" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47964376" visible="true" weight="0.16044776" />
+      <window_info id="Structure" order="1" sideWeight="0.52035624" side_tool="true" weight="0.19509594" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" sideWeight="0.49946696" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32900432" />
-      <window_info anchor="bottom" x="0" y="11" width="1920" height="1018" id="Run" order="2" sideWeight="0.4914712" weight="0.14935064" />
+      <window_info active="true" anchor="bottom" x="0" y="11" width="1920" height="1018" id="Run" order="2" sideWeight="0.4914712" visible="true" weight="0.14935064" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6369936" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -14900,16 +14978,42 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49733475" weight="0.32900432" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50852877" side_tool="true" visible="true" weight="0.14935064" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50852877" side_tool="true" weight="0.14935064" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.49946696" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47964376" visible="true" weight="0.15724947" />
+      <window_info id="Structure" order="1" sideWeight="0.52035624" side_tool="true" weight="0.19509594" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" x="0" y="11" width="1920" height="1018" id="Run" order="2" sideWeight="0.4914712" visible="true" weight="0.14935064" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6369936" weight="0.39935064" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49733475" weight="0.32900432" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50852877" side_tool="true" weight="0.14935064" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.49946696" weight="0.32900432" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -14967,13 +15071,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ressources Graphiques/GUI/MeteorRepository1Icons_fixed.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entities/Case_Terrain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ressources Graphiques/Planètes/nesmup.png">
       <provider selected="true" editor-type-id="images" />
@@ -15042,34 +15139,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27591">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/entities/Void.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphic/Gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <marker date="1552263637439" expanded="true" signature="49:54" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entities/ship.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <marker date="1552264076371" expanded="true" signature="17:19" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/entities/Planet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init__.py">
+    <entry file="file://$PROJECT_DIR$/entities/Case_Terrain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/entities/Case_Espace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="16" />
           <folding>
             <marker date="1539533398868" expanded="true" signature="50:51" ph="..." />
             <marker date="1539533398868" expanded="true" signature="50:56" ph="..." />
@@ -15077,20 +15198,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphic/Window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entities/Starmap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#1#28#0" expanded="true" />
           </folding>
@@ -15099,28 +15210,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graphic/VisibleStarmap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="40" column="71" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="71" />
+        <state relative-caret-position="680">
+          <caret line="40" column="72" lean-forward="true" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphic/Window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
-            <marker date="1543949272887" expanded="true" signature="78:2095" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$PROJECT_DIR$/Core/GameSession.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphic/Gui.py">
+    <entry file="file://$PROJECT_DIR$/init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
+        <state relative-caret-position="408">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding>
-            <marker date="1543953807685" expanded="true" signature="49:54" ph="..." />
-            <marker date="1543953807685" expanded="true" signature="49:700" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

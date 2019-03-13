@@ -7,6 +7,7 @@ def affichage(game_starmap, fenetre, size, pos):
     scrrec = fenetre.get_rect()
 
     #affichage du background
+    fenetre.fill(0)
     etoile = pygame.image.load("Ressources Graphiques\Espaces\Stars-Nebulae\Stars.png").convert_alpha()
     etoile1 = pygame.transform.scale(etoile, (scrrec.right, scrrec.bottom))
     position_fond = (0, 0)
