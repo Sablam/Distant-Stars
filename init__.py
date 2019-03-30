@@ -1,24 +1,39 @@
 import pygame
+import json
 import graphic.Window
 from Core import GameSession
+from graphic.Button import button
 
 
 
 from pygame.locals import *
 
 
-#test
+
 
 def main():
     pygame.init()
     pygame.display.set_caption("Distant Stars")
     fenetre = pygame.display.set_mode((1450, 950))
+    pygame.font.init()
     info = pygame.display.Info()
     print(info)
+    global language
+
+
+    with open("Text/Menu.json", "r") as file_Menu:
+        menu_text = json.load(file_Menu)
+
+
 
     scrrec = fenetre.get_rect()
-    img_menu=pygame.transform.scale(pygame.image.load("Ressources Graphiques/menu.png"),(scrrec.right, scrrec.bottom))
+    img_menu=pygame.transform.scale(pygame.image.load("Ressources Graphiques/Menu/menu.png"),(scrrec.right, scrrec.bottom))
     fenetre.blit(img_menu,(0,0))
+    img_button = pygame.image.load("Ressources Graphiques/Menu/button_menu.png")
+    button_start=button(img_button,(scrrec.right*0.38,scrrec.bottom*0.3),fenetre,menu_text,"menu_newgame")
+    button_config = button(img_button, (scrrec.right * 0.38, scrrec.bottom * 0.5), fenetre, menu_text, "menu_config")
+    button_quit = button(img_button, (scrrec.right * 0.38, scrrec.bottom * 0.7), fenetre, menu_text, "menu_quit")
+
     pygame.display.flip()
 
     pygame.mixer.music.load("Musics/271866__mrpork__era-of-space.ogg")
@@ -44,10 +59,18 @@ def main():
                     running = 0
 
             if event.type == MOUSEBUTTONDOWN:
+                mouse = pygame.mouse.get_pos()
                 if flag_game_started == 0:
-                    if (0.40*scrrec.bottom < pygame.mouse.get_pos()[1] < 0.50*scrrec.bottom) and (0.40*scrrec.right < pygame.mouse.get_pos()[0] < 0.60*scrrec.right):
+
+                    if button_start.rect_button.collidepoint(mouse):
                         flag_game_started = 1
                         gamesession = GameSession.GameSession(fenetre)
+
+                    if button_config.rect_button.collidepoint(mouse):
+                        running = 1 #TODO
+
+                    if button_quit.rect_button.collidepoint(mouse):
+                        running = 0
 
 
             #if event.type == VIDEORESIZE:

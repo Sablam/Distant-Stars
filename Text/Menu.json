@@ -1,0 +1,31 @@
+{
+		"english" : [
+			{
+			"menu_newgame":		"New Game",
+			"menu_quit":		"Quit",
+				"menu_config":	"Config"
+			}
+			
+		],
+		"french": [
+			{
+			"menu_newgame":		"Nouvelle Partie",
+			"menu_quit":		"Quitter",
+				"menu_config":	"Configuration"
+			}
+			
+		],
+	
+	"synonym": {
+		"english": [
+			"en",
+			"us",
+			"uk"
+		],
+		"french": [
+			"fr",
+			"français",
+			"francais"
+		]
+	}
+}
