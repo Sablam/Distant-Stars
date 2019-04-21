@@ -36,7 +36,7 @@ def main():
 
     pygame.display.flip()
 
-    pygame.mixer.music.load("Musics/271866__mrpork__era-of-space.ogg")
+    pygame.mixer.music.load("Musics/John_Bartmann_-_12_-_Interstellar_Space.mp3")
     pygame.mixer.music.set_volume(0.1)
     pygame.mixer.music.play()
 

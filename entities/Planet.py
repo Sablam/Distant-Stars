@@ -34,7 +34,7 @@ class Planet_obj():
         #selection aléatoire de son apparence
         number=0
         for file in os.listdir('Ressources Graphiques/Espace/planets'):
-            if re.match("continental", file):
+            if re.match(self.classe, file):
                 number=number+1
         print(number)
 

@@ -8215,8 +8215,10 @@
       <change afterPath="$PROJECT_DIR$/../../Java/Multiplayer Paper Soccer Game/src/server/ServerThread.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaScript/intro-javascript/chapitre_1/html/cours.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaScript/intro-javascript/chapitre_1/js/cours.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/alban.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Musics/John_Bartmann_-_12_-_Interstellar_Space.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Musics/bensound-newdawn.mp3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/absorption/00.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/absorption/01.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/absorption/02.png" afterDir="false" />
@@ -8291,7 +8293,6 @@
       <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/shield4/14.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/shield4/17.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Ressources Graphiques/FX/sci-fi-effects/shield4/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphic/Button.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Signal_Analyser/Projet Filtrage/Coefs.mat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Signal_Analyser/Projet Filtrage/data.mat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Signal_Analyser/Projet Filtrage/main.py" afterDir="false" />
@@ -14547,8 +14548,11 @@
       <change afterPath="$PROJECT_DIR$/../../../SimCity 4/Regions/London/City - New City (25).sc4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/GameSession.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/GameSession.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources Graphiques/menu.pfi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ressources Graphiques/menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources Graphiques/Menu/menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ressources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ressources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources Graphiques/Menu/button_menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources Graphiques/Menu/button_menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Planet.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Planet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Starmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Starmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/ship.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14559,7 +14563,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Distant_Stars$Starmap.coverage" NAME="Starmap Coverage Results" MODIFIED="1543949674239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entities" />
-    <SUITE FILE_PATH="coverage/Distant_Stars$init__.coverage" NAME="init__ Coverage Results" MODIFIED="1553989848774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Distant_Stars$init__.coverage" NAME="init__ Coverage Results" MODIFIED="1555880860242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1849550812">
@@ -14605,161 +14609,176 @@
     <session id="-606152222">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.9" value="9" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="11" />
+          <entry key="Player" value="221" />
+          <entry key="dummy" value="19" />
           <entry key="json" value="110" />
-          <entry key="py" value="3600" />
+          <entry key="py" value="3982" />
           <entry key="txt" value="4" />
-          <entry key="xml" value="7" />
+          <entry key="xml" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="110" />
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="3600" />
-          <entry key="XML" value="7" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Python" value="4202" />
+          <entry key="XML" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Player" value="2" />
           <entry key="json" value="1" />
           <entry key="png" value="1" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="13" />
-          <entry key="xml" value="1" />
+          <entry key="py" value="27" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="13" />
-          <entry key="XML" value="1" />
+          <entry key="Python" value="25" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/graphic/Button.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/Config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Text/Menu.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Core/GameSession.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphic/VisibleStarmap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entities/Starmap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entities/Case_Espace.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="16" />
-              <folding>
-                <marker date="1539533398868" expanded="true" signature="50:51" ph="..." />
-                <marker date="1539533398868" expanded="true" signature="50:56" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entities/Planet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entities/Case_Terrain.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.62232316">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/init__.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="66" selection-start-line="66" selection-end-line="66" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Core/GameSession.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="21" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#0#21#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/entities/Starmap.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <folding>
+                    <element signature="e#0#27#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/entities/Case_Espace.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="16" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="16" />
+                  <folding>
+                    <marker date="1539533398868" expanded="true" signature="50:51" ph="..." />
+                    <marker date="1539533398868" expanded="true" signature="50:56" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/entities/Planet.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="34" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#0#33#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/entities/Ship.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+                  <folding>
+                    <marker date="1555880528733" expanded="true" signature="193:215" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Core/Config.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="19" selection-start-column="19" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Data/planets.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Core/Player.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Data/ressources.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14789,17 +14808,22 @@
         <option value="$PROJECT_DIR$/Starmap.py" />
         <option value="$PROJECT_DIR$/graphic/window.py" />
         <option value="$PROJECT_DIR$/graphic/Gui.py" />
-        <option value="$PROJECT_DIR$/entities/ship.py" />
-        <option value="$PROJECT_DIR$/entities/Starmap.py" />
         <option value="$PROJECT_DIR$/Data/planets.xml" />
-        <option value="$PROJECT_DIR$/entities/Planet.py" />
         <option value="$PROJECT_DIR$/graphic/Window.py" />
         <option value="$PROJECT_DIR$/graphic/VisibleStarmap.py" />
-        <option value="$PROJECT_DIR$/Core/GameSession.py" />
         <option value="$PROJECT_DIR$/Core/Config.py" />
-        <option value="$PROJECT_DIR$/init__.py" />
         <option value="$PROJECT_DIR$/Text/Menu.json" />
         <option value="$PROJECT_DIR$/graphic/Button.py" />
+        <option value="$PROJECT_DIR$/init__.py" />
+        <option value="$PROJECT_DIR$/entities/Planet.py" />
+        <option value="$PROJECT_DIR$/Core/Player" />
+        <option value="$PROJECT_DIR$/Core/test.py" />
+        <option value="$PROJECT_DIR$/Core/player.py" />
+        <option value="$PROJECT_DIR$/entities/Starmap.py" />
+        <option value="$PROJECT_DIR$/Data/ressources.xml" />
+        <option value="$PROJECT_DIR$/entities/ship.py" />
+        <option value="$PROJECT_DIR$/Core/GameSession.py" />
+        <option value="$PROJECT_DIR$/Core/Player.py" />
       </list>
     </option>
   </component>
@@ -14809,11 +14833,25 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="167" />
-    <option name="y" value="71" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="313" />
+    <option name="y" value="19" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -14823,6 +14861,47 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="entities" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="graphic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Musics" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Text" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -14839,32 +14918,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="graphic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Distant Stars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Text" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -14872,10 +14925,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alban\Documents\Programmation\Python\Distant Stars\entities" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alban\Documents\Programmation\Python\Distant Stars\Musics" />
       <recent name="C:\Users\alban\Documents\Programmation\Python\Distant Stars\Ressources Graphiques\Menu" />
       <recent name="C:\Users\alban\Documents\Programmation\Python\Distant Stars" />
       <recent name="D:\Users\alban\Dropbox\Programmation\Python\Distant Stars" />
@@ -14982,12 +15039,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47964376" visible="true" weight="0.1684435" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47964376" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" sideWeight="0.52035624" side_tool="true" weight="0.19509594" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" x="0" y="11" width="1920" height="1018" id="Run" order="2" sideWeight="0.4914712" visible="true" weight="0.3874459" />
+      <window_info active="true" anchor="bottom" x="0" y="11" width="1920" height="1018" id="Run" order="2" sideWeight="0.4914712" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6369936" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -14996,8 +15053,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49733475" weight="0.32900432" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50852877" side_tool="true" weight="0.14935064" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.20238096" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.1525974" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" sideWeight="0.49946696" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -15149,20 +15206,6 @@
         <state relative-caret-position="-510" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entities/ship.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/planets.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="10" selection-start-line="18" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ressources Graphiques/Menu/button_menu.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -15173,10 +15216,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/Config.py">
+    <entry file="file://$PROJECT_DIR$/graphic/Button.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="102">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Text/Menu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphic/VisibleStarmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Player" />
+    <entry file="file://$PROJECT_DIR$/entities/Case_Terrain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entities/Planet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/planets.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/ressources.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -15191,73 +15290,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entities/Planet.py">
+    <entry file="file://$PROJECT_DIR$/entities/Ship.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <marker date="1555880528733" expanded="true" signature="193:215" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entities/Case_Terrain.py">
+    <entry file="file://$PROJECT_DIR$/Core/Config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/entities/Starmap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphic/VisibleStarmap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="50" />
+        <state>
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Core/GameSession.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="204">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Text/Menu.json">
+    <entry file="file://$PROJECT_DIR$/Core/Player.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="187">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphic/Button.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
