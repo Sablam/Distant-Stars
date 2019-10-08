@@ -2,7 +2,7 @@
 <planets>
 	<planet data-id="1">
 		<type>tellurique</type>
-		<classe>continentale</classe>
+		<classe>Continental</classe>
 		<temperature>temperee</temperature>
 		<size_min>5</size_min>
 		<size_max>10</size_max>
@@ -10,10 +10,26 @@
 	
 	<planet data-id="2">
 		<type>tellurique</type>
-		<classe>oceanique</classe>
+		<classe>Oceanic</classe>
 		<temperature>temperee</temperature>
 		<size_min>5</size_min>
 		<size_max>10</size_max>
+	</planet>
+
+	<planet data-id="3">
+		<type>tellurique</type>
+		<classe>Lava</classe>
+		<temperature>chaud</temperature>
+		<size_min>3</size_min>
+		<size_max>8</size_max>
+	</planet>
+
+	<planet data-id="4">
+		<type>tellurique</type>
+		<classe>Ice</classe>
+		<temperature>froid</temperature>
+		<size_min>3</size_min>
+		<size_max>12</size_max>
 	</planet>
 
 

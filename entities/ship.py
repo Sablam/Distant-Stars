@@ -1,7 +1,10 @@
-class Ship_Obj():
+from Entities.entities import Entities
 
-    def __init__(self):
-        self.owner = 0
+class Ship_Obj(Entities):
+
+    def __init__(self,owner, type):
+        self.owner = owner
+        self.type=type
 
         self.travel = 1
         self.firepower = 0
@@ -14,5 +17,4 @@ class Ship_Obj():
 
     def Move(self, pos):
         test=0
-
 

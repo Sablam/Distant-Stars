@@ -1,8 +1,9 @@
 import pygame
 import json
-import graphic.Window
-from Core import GameSession
-from graphic.Button import button
+import tkinter as tk
+import Graphic.window
+from Core import game_session
+from Graphic.button import button
 
 
 
@@ -12,9 +13,15 @@ from pygame.locals import *
 
 
 def main():
+
+    root = tk.Tk()
+    screen_width = 800#root.winfo_screenwidth()
+    screen_height = 500#root.winfo_screenheight()
+
     pygame.init()
     pygame.display.set_caption("Distant Stars")
-    fenetre = pygame.display.set_mode((1450, 950))
+    fenetre = pygame.display.set_mode((screen_width, screen_height))
+
     pygame.font.init()
     info = pygame.display.Info()
     print(info)
@@ -23,8 +30,6 @@ def main():
 
     with open("Text/Menu.json", "r") as file_Menu:
         menu_text = json.load(file_Menu)
-
-
 
     scrrec = fenetre.get_rect()
     img_menu=pygame.transform.scale(pygame.image.load("Ressources Graphiques/Menu/menu.png"),(scrrec.right, scrrec.bottom))
@@ -40,12 +45,7 @@ def main():
     pygame.mixer.music.set_volume(0.1)
     pygame.mixer.music.play()
 
-
-
     flag_game_started = 0
-
-
-
 
     running = 1
     while running:
@@ -64,13 +64,15 @@ def main():
 
                     if button_start.rect_button.collidepoint(mouse):
                         flag_game_started = 1
-                        gamesession = GameSession.GameSession(fenetre)
+                        gamesession = game_session.GameSession(fenetre)
 
                     if button_config.rect_button.collidepoint(mouse):
                         running = 1 #TODO
 
                     if button_quit.rect_button.collidepoint(mouse):
                         running = 0
+
+
 
 
             #if event.type == VIDEORESIZE:

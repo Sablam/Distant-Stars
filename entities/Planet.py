@@ -1,16 +1,19 @@
-from entities import Case_Terrain
+from Map import case_terrain
 from lxml import etree
 import random
 import os
 import re
 
+from Entities.entities import Entities
 
 
-class Planet_obj():
+class Planet_obj(Entities):
 
     def __init__(self,width,heigh):
         self.entitie_type="planet"
+        self.owner ="none"
         self.size = (width, heigh)
+
         planets_list = etree.parse("Data/planets.xml")
 
         #selection aléatoire du type de planete
@@ -36,9 +39,9 @@ class Planet_obj():
         for file in os.listdir('Ressources Graphiques/Espace/planets'):
             if re.match(self.classe, file):
                 number=number+1
-        print(number)
+        print("Planet_obj, number:",number)
 
-        self.appearence="{0}{1}".format(self.classe,random.randint(1,number))
+        self.appearence="{0}{1}{2}".format(self.classe,"_",random.randint(1,number))
 
 
-        self.hexaGrid = [[Case_Terrain.Case_Terrain_obj()] * width for _ in range(heigh)]
+        self.Grid = [[case_terrain.Case_Terrain_obj()] * width for _ in range(heigh)]

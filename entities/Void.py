@@ -1,4 +1,7 @@
-class Void_obj():
+from Entities.entities import Entities
+
+
+class Void_obj(Entities):
 
     def __init__(self):
 

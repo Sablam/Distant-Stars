@@ -1,5 +1,5 @@
 import pygame
-import Core.Config
+import Core.config
 
 class button:
 
@@ -10,6 +10,6 @@ class button:
 
 
         myfont = pygame.font.Font('Text/NEUROPOL.TTF', 40)
-        textsurface = myfont.render(text_file[Core.Config.language][0][text_label], False, (0, 100, 200))
+        textsurface = myfont.render(text_file[Core.config.language][0][text_label], False, (0, 100, 200))
         surface.blit(textsurface, (coords[0] + ((img_button.get_width() - textsurface.get_width()) / 2), coords[1] + ((img_button.get_height() - textsurface.get_height()) / 2)))
 

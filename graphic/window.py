@@ -1,6 +1,6 @@
 import pygame
-import graphic.VisibleStarmap
-import graphic.Gui
+import Graphic.visible_starmap
+import Graphic.gui
 
 
 def affichage(game_starmap, fenetre, size, pos):
@@ -23,8 +23,8 @@ def affichage(game_starmap, fenetre, size, pos):
     position_fond = (0, 0)
     fenetre.blit(nebula2_scale, position_fond)
 
-    graphic.VisibleStarmap.affichage_starmap(game_starmap, fenetre, size, pos,scrrec)#affiche la grille hexagonal et les entitées visibles
-    graphic.Gui.affichage_gui(fenetre,scrrec)#affiche l'interface utilisateur
+    Graphic.visible_starmap.affichage_starmap(game_starmap, fenetre, size, pos, scrrec)#affiche la grille hexagonal et les entitées visibles
+    Graphic.gui.affichage_gui(fenetre, scrrec)#affiche l'interface utilisateur
 
 
     pygame.display.flip()
